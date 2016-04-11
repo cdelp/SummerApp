@@ -1,0 +1,41 @@
+<!--<?xml version="1.0" encoding="utf-8"?> -->
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+android:name="com.google.android.gms.maps.MapFragment"
+android:id="@+id/map"
+android:layout_width="match_parent"
+android:layout_height="match_parent"/>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:id="@+id/layout_1"
+    android:orientation="vertical"
+    android:nestedScrollingEnabled="false"
+    android:weightSum="1">
+
+
+
+    <com.google.android.gms.maps.MapView android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/Chad/OneDrive/Documents/ICS466/SummerApp/SummerApp/SummerApp/Application/src/main/res/layout/activity_map.xml -->
